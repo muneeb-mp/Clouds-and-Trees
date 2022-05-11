@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    background-color: rgb(205, 252, 255);
+}
+
+.container {
+    position: relative;
+}
+
+.clouds {
+    position: absolute;
+    right: -20px;
+    top: 0;
+}
+
+.cloud {
+    height: 30px;
+    width: 100px;
+    border-radius: 9999px;
+    background-color: white;
+}
+
+.cloud.one {
+    margin-left: 70px;
+}
+
+.cloud.two {
+    margin-left: 40px;
+}
+
+.cloud.three {
+    margin-left: 10px;
+}
+
+.sun {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: -30px;
+    right: -60px;
+    border-radius: 50%;
+    background: yellow;
+    /* background: radial-gradient(rgb(254, 239, 155), rgb(252, 208, 94)); */
+}
+
+.tree {
+    position: relative;
+}
+
+.tree .leaves {
+    background: lightgreen;
+    /* background: linear-gradient(to top, rgb(132, 205, 132), rgb(190, 254, 190)); */
+    width: 65px;
+    height: 120px;
+    border-radius: 50px;
+}
+
+.tree .root {
+    height: 85px;
+    width: 4px;
+    background-color: black;
+    position: absolute;
+    bottom: -30px;
+    right: 50%;
+    transform: translateX(50%);
+    border-radius: 9999px 0;
+}
+
+.branch {
+    background-color: black;
+    height: 20px;
+    width: 3px;
+    position: absolute;
+    border-radius: 9999px 0;
+}
+
+.branch.one {
+    top: 25px;
+    right: 6px;
+    transform: rotate(-30deg);
+}
+
+.branch.two {
+    top: 15px;
+    right: -5px;
+    transform: rotate(30deg);
+}
+
+.branch .three {
+    top: -8px;
+    right: 6px;
+    transform: rotate(-30deg);
+}
+
+.tree .ground {
+    width: 200px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    bottom: -30px;
+    right: 50%;
+    transform: translateX(50%);
+    border-radius: 9999px;
+}
+
+.bush{
+    position: absolute;
+    right: -50px;
+    bottom: -27px;
+}
+
+.bush.body{
+    position: relative;
+}
+
+.part{
+    background: lightgreen;
+}
+
+.part.one{
+    width: 60px;
+    height: 25px;
+    border-radius: 999px;
+}
+
+.part.two{
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+    position: absolute;
+    right: 50%;
+    top: -15px;
+    transform: translateX(50%);
+}
