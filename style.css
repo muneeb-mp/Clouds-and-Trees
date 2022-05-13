@@ -47,8 +47,7 @@ body {
     top: -30px;
     right: -60px;
     border-radius: 50%;
-    background: yellow;
-    /* background: radial-gradient(rgb(254, 239, 155), rgb(252, 208, 94)); */
+    background: radial-gradient(rgb(254, 239, 155), rgb(252, 208, 94));
 }
 
 .tree {
@@ -56,8 +55,7 @@ body {
 }
 
 .tree .leaves {
-    background: lightgreen;
-    /* background: linear-gradient(to top, rgb(132, 205, 132), rgb(190, 254, 190)); */
+    background: linear-gradient(to top, rgb(132, 205, 132), rgb(190, 254, 190));
     width: 65px;
     height: 120px;
     border-radius: 50px;
@@ -122,7 +120,7 @@ body {
 }
 
 .part{
-    background: lightgreen;
+    background: linear-gradient(to top, rgb(132, 205, 132), rgb(190, 254, 190));
 }
 
 .part.one{
